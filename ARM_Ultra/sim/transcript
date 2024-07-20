@@ -1,0 +1,3490 @@
+# vsim . 
+# Start time: 17:26:49 on Jan 10,2024
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 17:26:50 on Jan 10,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:59 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# ** Error (suppressible): ../cache/Cache.v(30): (vlog-2388) 'hit' already declared in this scope (CacheController) at ../cache/Cache.v(11).
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 17:26:59 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:40 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 17:27:40 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:40 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 17:27:40 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 17:27:40 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TB/A1/CC1/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/TagBlock_0
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/TagBlock_1
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 17:52:26 on Jan 10,2024, Elapsed time: 0:24:46
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:52:26 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 17:52:26 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:52:26 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 17:52:26 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 17:52:26 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1
+add wave -position insertpoint sim:/TB/A1/CC1/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 18:04:38 on Jan 10,2024, Elapsed time: 0:12:12
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:04:38 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 18:04:38 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:04:38 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 18:04:38 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 18:04:38 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/index
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run -all
+add wave -position insertpoint sim:/TB/A1/CC1/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run
+run
+run
+run
+run
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/LRU
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run
+run
+run
+run
+run
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 19:44:23 on Jan 10,2024, Elapsed time: 1:39:45
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:23 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 19:44:23 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:44:23 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 19:44:23 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 19:44:23 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/clk \
+sim:/TB/A1/CC1/rst \
+sim:/TB/A1/CC1/address \
+sim:/TB/A1/CC1/wdata \
+sim:/TB/A1/CC1/MEM_R_EN \
+sim:/TB/A1/CC1/MEM_W_EN \
+sim:/TB/A1/CC1/rdata \
+sim:/TB/A1/CC1/ready \
+sim:/TB/A1/CC1/sram_address \
+sim:/TB/A1/CC1/sram_wdata \
+sim:/TB/A1/CC1/hit \
+sim:/TB/A1/CC1/sram_rdata \
+sim:/TB/A1/CC1/sram_ready \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1 \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1 \
+sim:/TB/A1/CC1/LRU \
+sim:/TB/A1/CC1/hit0 \
+sim:/TB/A1/CC1/hit1 \
+sim:/TB/A1/CC1/tag \
+sim:/TB/A1/CC1/index
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run
+run
+run
+run
+run
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 19:52:13 on Jan 10,2024, Elapsed time: 0:07:50
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:52:13 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 19:52:14 on Jan 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:52:14 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 19:52:14 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 19:52:14 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TB/A1/CC1/*
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1 \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1 \
+sim:/TB/A1/CC1/LRU
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 20:00:58 on Jan 10,2024, Elapsed time: 0:08:44
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:58 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 20:00:58 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:00:58 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 20:00:58 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 20:00:58 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TB/A1/CC1/*
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1 \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1 \
+sim:/TB/A1/CC1/LRU
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 20:13:31 on Jan 10,2024, Elapsed time: 0:12:33
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:13:31 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 20:13:32 on Jan 10,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:13:32 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 20:13:32 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 20:13:32 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TB/A1/CC1/*
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1 \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1 \
+sim:/TB/A1/CC1/LRU
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 22:10:44 on Jan 10,2024, Elapsed time: 1:57:12
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:44 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 22:10:44 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:10:44 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 22:10:44 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 22:10:44 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 22:14:38 on Jan 10,2024, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:38 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 22:14:38 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:14:39 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 22:14:39 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 22:14:39 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 22:18:29 on Jan 10,2024, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 25
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:18:29 on Jan 10,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../cache/Cache.v ../sram/Sram.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module CacheController
+# -- Compiling module sram
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	CacheController
+# 	sram
+# 	Sram_Controller
+# End time: 22:18:29 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:18:29 on Jan 10,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 22:18:29 on Jan 10,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 22:18:29 on Jan 10,2024
+# Loading work.TB
+# Loading work.sram
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.CacheController
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+add wave -position insertpoint sim:/TB/A1/CC1/*
+add wave -position insertpoint  \
+sim:/TB/A1/CC1/MemBlock_0_0 \
+sim:/TB/A1/CC1/MemBlock_0_1 \
+sim:/TB/A1/CC1/MemBlock_1_0 \
+sim:/TB/A1/CC1/MemBlock_1_1 \
+sim:/TB/A1/CC1/TagBlock_0 \
+sim:/TB/A1/CC1/TagBlock_1 \
+sim:/TB/A1/CC1/Valid_0 \
+sim:/TB/A1/CC1/Valid_1 \
+sim:/TB/A1/CC1/LRU
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 19
+run -all
+# ** Note: $stop    : ../TB.v(153)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 153
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

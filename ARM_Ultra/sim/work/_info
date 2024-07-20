@@ -1,0 +1,675 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/LAB/lab_1_amir
+vadder
+Z0 !s110 1704912509
+!i10b 1
+!s100 ?a[W;:_jS]JULmNA5;M9b0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9[eiWoJKdICQ=o5ZSbX212
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/amirsadra/Desktop/ARM/sim
+w1702316435
+8../EXE/adder.v
+F../EXE/adder.v
+!i122 1356
+L0 1 5
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1704912509.000000
+Z6 !s107 ../sram/Sram_Controller.v|../sram/Sram.v|../cache/Cache.v|../WB/WB.v|../Utils/RegPC.v|../Utils/MUX.v|../MEM/mem.v|../MEM/MemReg.v|../IFReg/IFReg.v|../IF/PC_adder.v|../IF/Instmem.v|../IF/IF.v|../IDReg/ID_Reg.v|../ID/RegistersFile.v|../ID/ID.v|../ID/ControlUnit.v|../ID/ConditionCheck.v|../Hazard/Hazard.v|../FW/FW.v|../EXEReg/EXE_Reg.v|../EXE/adder.v|../EXE/Val2Gen.v|../EXE/StatusReg.v|../EXE/EXE.v|../EXE/ALU.v|
+Z7 !s90 -reportprogress|300|../EXE/ALU.v|../EXE/EXE.v|../EXE/StatusReg.v|../EXE/Val2Gen.v|../EXE/adder.v|../EXEReg/EXE_Reg.v|../FW/FW.v|../Hazard/Hazard.v|../ID/ConditionCheck.v|../ID/ControlUnit.v|../ID/ID.v|../ID/RegistersFile.v|../IDReg/ID_Reg.v|../IF/IF.v|../IF/Instmem.v|../IF/PC_adder.v|../IFReg/IFReg.v|../MEM/MemReg.v|../MEM/mem.v|../Utils/MUX.v|../Utils/RegPC.v|../WB/WB.v|../cache/Cache.v|../sram/Sram.v|../sram/Sram_Controller.v|
+!i113 1
+Z8 tCvgOpt 0
+vALU
+R0
+!i10b 1
+!s100 ?fZ:P0Xe73g6]ofz_SE1j2
+R1
+I68AfY2FCzPE_]^bi=75aT3
+R2
+R3
+w1702410349
+8../EXE/ALU.v
+F../EXE/ALU.v
+!i122 1356
+Z9 L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@a@l@u
+vARM
+R0
+!i10b 1
+!s100 E=CaG[XK6`0AICb@goNk;3
+R1
+I<EEma0zGB9f3m2l08L@iG1
+R2
+R3
+w1704894875
+8../ARM.v
+F../ARM.v
+!i122 1357
+L0 48 473
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../TB.v|../ARM.v|
+Z10 !s90 -reportprogress|300|../ARM.v|../TB.v|
+!i113 1
+R8
+n@a@r@m
+vCacheController
+R0
+!i10b 1
+!s100 SA=X<d@]^R0M2Nb0obmze2
+R1
+I[Ac:?lOdT;Xf:6CC15zl13
+R2
+R3
+w1704912025
+8../cache/Cache.v
+F../cache/Cache.v
+!i122 1356
+L0 1 136
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@cache@controller
+vConditionCheck
+R0
+!i10b 1
+!s100 g1j`4=oo2]?zDj_S3:9YN0
+R1
+IQ7;b?6b5WH0iV@FB0BCRc0
+R2
+R3
+w1701232070
+8../ID/ConditionCheck.v
+F../ID/ConditionCheck.v
+!i122 1356
+R9
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@condition@check
+vControlUnit
+R0
+!i10b 1
+!s100 061WaD54AW_6G9DSl[jGR1
+R1
+IWR4_NkhYYfeDnDgTdjeCD1
+R2
+R3
+w1702321176
+8../ID/ControlUnit.v
+F../ID/ControlUnit.v
+!i122 1356
+L0 1 54
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@control@unit
+vCount6
+R0
+!i10b 1
+!s100 B>g80XS6^jc0Qcd?G@Hn=3
+R1
+IGZzFmW=j]YZRh86OmKSh12
+R2
+R3
+Z11 w1704912502
+Z12 8../sram/Sram_Controller.v
+Z13 F../sram/Sram_Controller.v
+!i122 1356
+L0 141 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@count6
+vEXE
+R0
+!i10b 1
+!s100 NTWNEAf0Ci2PPJoL;SFPN1
+R1
+IX2PIoUPjbzEU7=KQml^aC3
+R2
+R3
+w1703053391
+8../EXE/EXE.v
+F../EXE/EXE.v
+!i122 1356
+L0 1 38
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@e@x@e
+vEXE_STAGE_REG
+R0
+!i10b 1
+!s100 <7l0>VO<i0lllMO=T4A0K2
+R1
+IQ@zQ_emzK<_=XX[]VBC?A2
+R2
+R3
+w1704265663
+8../EXEReg/EXE_Reg.v
+F../EXEReg/EXE_Reg.v
+!i122 1356
+L0 1 37
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@e@x@e_@s@t@a@g@e_@r@e@g
+vFW
+R0
+!i10b 1
+!s100 [YMflB8H1BkK?:LfF7d003
+R1
+I1@nCNLz5^=3ROJkI7i^F62
+R2
+R3
+w1703058273
+8../FW/FW.v
+F../FW/FW.v
+!i122 1356
+L0 1 21
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@f@w
+vhazard_detection_unit
+R0
+!i10b 1
+!s100 45g_cI3mPjGJ3LTLInCCg0
+R1
+Icm:SPliKjiR=YAnQ@Gf862
+R2
+R3
+w1703059796
+8../Hazard/Hazard.v
+F../Hazard/Hazard.v
+!i122 1356
+Z14 L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vID
+R0
+!i10b 1
+!s100 FnazG16zcWS8:b4[_cH1X2
+R1
+IF3l6N5ei4H?KZh8K08fOK1
+R2
+R3
+w1701225454
+8../ID/ID.v
+F../ID/ID.v
+!i122 1356
+L0 1 50
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@i@d
+vID_STAGE_REG
+R0
+!i10b 1
+!s100 QM@@dIA3Y<^7Ck`hKdcm31
+R1
+IZSl?Sb>OUN@S[6P?l_BoK3
+R2
+R3
+w1704262717
+8../IDReg/ID_Reg.v
+F../IDReg/ID_Reg.v
+!i122 1356
+L0 1 68
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@i@d_@s@t@a@g@e_@r@e@g
+vIF
+R0
+!i10b 1
+!s100 G_gT1gQOSnU8mHGKP@aBm0
+R1
+IzmYzT:I_ZGaM]FmP7=DXD1
+R2
+R3
+w1701230388
+8../IF/IF.v
+F../IF/IF.v
+!i122 1356
+L0 1 8
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@i@f
+vIFReg
+R0
+!i10b 1
+!s100 ][W:C[?Jlh8_RJ7FLkOXR3
+R1
+I7^]gP9?ZZ_DoMX9JKA5N60
+R2
+R3
+w1701696594
+8../IFReg/IFReg.v
+F../IFReg/IFReg.v
+!i122 1356
+Z15 L0 1 22
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@i@f@reg
+vInstmem
+R0
+!i10b 1
+!s100 98cZGb`=Ql]S1Yd4OZ2RG2
+R1
+Inb:kn[mmC`HSmBJfP>3c32
+R2
+R3
+w1704266559
+8../IF/Instmem.v
+F../IF/Instmem.v
+!i122 1356
+L0 1 57
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@instmem
+vMemory
+R0
+!i10b 1
+!s100 zLj6i^Z_UG^nc9HX3ZF`L3
+R1
+I8V?k]`AW2JeM^km>W8aeh0
+R2
+R3
+w1701466298
+8../MEM/mem.v
+F../MEM/mem.v
+!i122 1356
+L0 1 15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@memory
+vMemReg
+R0
+!i10b 1
+!s100 ]MA6l=WSg[<O;iC8lQf=f3
+R1
+Ib^U`LPV5G]oOc@f9=`A9j2
+R2
+R3
+w1704265684
+8../MEM/MemReg.v
+F../MEM/MemReg.v
+!i122 1356
+L0 1 27
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@mem@reg
+vMux
+R0
+!i10b 1
+!s100 4PAdSSZQM35zomiAn8gz:2
+R1
+I<@63aE_F4V3@f3BPRI4>^2
+R2
+R3
+w1697612454
+8../Utils/MUX.v
+F../Utils/MUX.v
+!i122 1356
+L0 1 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@mux
+vPC_adder
+R0
+!i10b 1
+!s100 mMQ7=_UlZHTNQ72ChOK^31
+R1
+IZn58CiVDM3U;bdDjXj8W?3
+R2
+R3
+w1699412698
+8../IF/PC_adder.v
+F../IF/PC_adder.v
+!i122 1356
+L0 1 4
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@p@c_adder
+vReg_Read
+R0
+!i10b 1
+!s100 cLTOn@zcf<dfmW:bLaB>e3
+R1
+I;@gYBe_aPX>?QK9L^A3Ln1
+R2
+R3
+R11
+R12
+R13
+!i122 1356
+L0 154 11
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@reg_@read
+vRegistersFile
+R0
+!i10b 1
+!s100 cTiJRgg3R_JQNm<n;nN1=3
+R1
+I^76^[ozbhXVE[4L3Vl]bW0
+R2
+R3
+w1702060996
+8../ID/RegistersFile.v
+F../ID/RegistersFile.v
+!i122 1356
+R14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@registers@file
+vRegPC
+R0
+!i10b 1
+!s100 `m]e@Nn56f29[0]z2ULSj1
+R1
+I99^3Q4Qa^2XFTBdjFj0fO2
+R2
+R3
+w1701228968
+8../Utils/RegPC.v
+F../Utils/RegPC.v
+!i122 1356
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@reg@p@c
+vsram
+R0
+!i10b 1
+!s100 @A=G5DXj6[`jC48e;=F@h2
+R1
+IG4:jjWUh6;WEOKm1`ih5O1
+R2
+R3
+w1704874084
+8../sram/Sram.v
+F../sram/Sram.v
+!i122 1356
+R15
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vSram_Controller
+R0
+!i10b 1
+!s100 dLmEGbbkdmKSUknjo0LVT1
+R1
+IEj17mN_]=__oYCVbZQCW00
+R2
+R3
+R11
+R12
+R13
+!i122 1356
+L0 1 139
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@sram_@controller
+vStatus_Reg
+R0
+!i10b 1
+!s100 IRjVUYGak[^4Q]_I;`@m;2
+R1
+ITl>[Dh[WI`Zf7hiZS4W:l3
+R2
+R3
+w1701221800
+8../EXE/StatusReg.v
+F../EXE/StatusReg.v
+!i122 1356
+L0 1 14
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@status_@reg
+vTB
+R0
+!i10b 1
+!s100 W3?<U=T;VPlB4cPaEMU]R3
+R1
+I9a8UMVbG708i6_]J867`e3
+R2
+R3
+w1704874712
+8../TB.v
+F../TB.v
+!i122 1357
+L0 2 156
+R4
+r1
+!s85 0
+31
+R5
+Z16 !s107 ../TB.v|../ARM.v|
+R10
+!i113 1
+R8
+n@t@b
+vVal2Gen
+R0
+!i10b 1
+!s100 84lg]=b]z`YBmY>fHA[K;1
+R1
+I3=J?hLdEoK]`9m@H@UaGe2
+R2
+R3
+w1703053485
+8../EXE/Val2Gen.v
+F../EXE/Val2Gen.v
+!i122 1356
+L0 1 46
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@val2@gen
+vWB_stage
+R0
+!i10b 1
+!s100 Gb7TelNMe6<Wf02_d<G7_0
+R1
+I[QNY=88kHk_Xc:kDY5gLi0
+R2
+R3
+w1700620560
+8../WB/WB.v
+F../WB/WB.v
+!i122 1356
+L0 1 6
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@w@b_stage

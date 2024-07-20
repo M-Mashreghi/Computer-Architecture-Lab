@@ -1,0 +1,1593 @@
+# vsim . 
+# Start time: 09:53:29 on Jan 03,2024
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 09:53:29 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+ls
+# ARM.v
+# ARM.v.bak
+# EXE
+# EXEReg
+# FW
+# Hazard
+# ID
+# IDReg
+# IF
+# IFReg
+# MEM
+# Quartus
+# sim
+# sram
+# stp1_auto_stripped.stp
+# stp1.stp
+# TB.v
+# TB.v.bak
+# transcript
+# Utils
+# WB
+cd sim
+ls
+# ARM.cr.mti
+# ARM.mpf
+# TB.do
+# transcript
+# vish_stacktrace.vstf
+# vsim.wlf
+# wlft0vj2rm
+# wlft1b46g8
+# wlft2bmbtd
+# wlft3s0k15
+# wlft4z1gb9
+# wlft839tsi
+# wlft8mxz4c
+# wlft8yaykm
+# wlft9f1cn4
+# wlftitaev0
+# wlftkk1544
+# wlftrqsrsi
+# wlftsmhyjr
+# wlftxmt8e9
+# wlftxw7kdj
+# wlftz9nqjt
+# work
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:53:51 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: (vlog-13038) ../sram/Sram_Controller.v(22): near ")": Missing port in ansi port list.
+# End time: 09:53:51 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:54:55 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(47): (vlog-2730) Undefined variable: 'S3'.
+# ** Error: (vlog-13069) ../sram/Sram_Controller.v(51): near ";": syntax error, unexpected ';'.
+# ** Error: ../sram/Sram_Controller.v(108): (vlog-2730) Undefined variable: 'SRAM_E_N'.
+# -- Compiling module Count6
+# ** Error: (vlog-13036) ../sram/Sram_Controller.v(127): near "+=": Operator only allowed in SystemVerilog.
+# -- Compiling module Reg_Read
+# End time: 09:54:55 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:55:41 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(47): (vlog-2730) Undefined variable: 'S3'.
+# ** Error: (vlog-13069) ../sram/Sram_Controller.v(51): near ";": syntax error, unexpected ';'.
+# ** Error: ../sram/Sram_Controller.v(108): (vlog-2730) Undefined variable: 'SRAM_E_N'.
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 09:55:41 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:59:14 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(68): (vlog-2110) Illegal reference to net "ready".
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(70): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# ** Error: ../sram/Sram_Controller.v(72): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(77): (vlog-2110) Illegal reference to net "ready".
+# ** Error: ../sram/Sram_Controller.v(80): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# ** Error: ../sram/Sram_Controller.v(81): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(87): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# ** Error: ../sram/Sram_Controller.v(88): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(101): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# ** Error: ../sram/Sram_Controller.v(102): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(108): (vlog-2110) Illegal reference to net "SRAM_WE_N".
+# ** Error: ../sram/Sram_Controller.v(109): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 09:59:15 on Jan 03,2024, Elapsed time: 0:00:01
+# Errors: 15, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:59:58 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(72): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(81): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(88): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(102): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(109): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 09:59:58 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:01:46 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(72): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(81): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(88): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(102): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(109): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:01:46 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+# Break key hit
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:03:02 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(72): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(81): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(88): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(102): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(109): (vlog-2110) Illegal reference to net "SRAM_ADDR".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:03:02 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:05:39 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:05:39 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:06:20 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:06:20 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:07:05 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:07:05 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:07:53 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# ** Error: ../sram/Sram_Controller.v(69): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(103): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# ** Error: ../sram/Sram_Controller.v(110): (vlog-2110) Illegal reference to net "SRAM_DQ".
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# End time: 10:07:53 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 2
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*/*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:11:26 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:11:26 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:11:26 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module Sram_Controller
+# ** Error: ../ARM.v(444): (vlog-13294) Identifier must be declared with a port mode: MEM_W_EN_reg_2.
+# ** Error: ../ARM.v(445): (vlog-13294) Identifier must be declared with a port mode: MEM_R_EN_reg_2.
+# ** Error: ../ARM.v(446): (vlog-13294) Identifier must be declared with a port mode: ALU_result_reg.
+# ** Error: ../ARM.v(447): (vlog-13294) Identifier must be declared with a port mode: Val_RM_reg2.
+# ** Error: ../ARM.v(449): (vlog-13294) Identifier must be declared with a port mode: MEM_out.
+# ** Error: ../ARM.v(451): (vlog-13294) Identifier must be declared with a port mode: sram_ready.
+# -- Compiling module TB
+# ** Error: (vlog-13069) ../TB.v(146): near "EOF": syntax error, unexpected end of source code.
+# End time: 10:11:26 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 3
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:12:59 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:12:59 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:12:59 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# ** Error: (vlog-13069) ../ARM.v(460): near ")": syntax error, unexpected ')', expecting .* or '.'.
+# -- Compiling module TB
+# End time: 10:12:59 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./TB.do line 3
+# /home/amirsadra/Apps/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog ../*.v"
+do TB.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:13:30 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:13:31 on Jan 03,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:13:31 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:13:31 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:13:31 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** UI-Msg: (vish-4014) No objects found matching '/TB/A1/MEM_STAGE/*'.
+# Error in macro ./TB.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching '/TB/A1/MEM_STAGE/*'.
+#     while executing
+# "add wave -group MEM -position insertpoint sim:/TB/A1/MEM_STAGE/*"
+do TB.do
+# End time: 10:14:40 on Jan 03,2024, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 27
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:14:40 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:14:40 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:14:40 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:14:40 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:14:40 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+do TB.do
+# End time: 10:22:42 on Jan 03,2024, Elapsed time: 0:08:02
+# Errors: 0, Warnings: 27
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:42 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:22:42 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:22:42 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:22:42 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:22:42 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# WARNING: No extended dataflow license exists
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+run
+run
+run
+run
+run
+run
+run
+do TB.do
+# End time: 10:28:12 on Jan 03,2024, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 27
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:28:12 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:28:12 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:28:12 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:28:12 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:28:12 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# WARNING: No extended dataflow license exists
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint sim:/TB/A1/EXE_REG/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+run -all
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+do TB.do
+# End time: 10:38:15 on Jan 03,2024, Elapsed time: 0:10:03
+# Errors: 0, Warnings: 27
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:38:15 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:38:15 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:38:15 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:38:15 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:38:15 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+run
+run
+run
+run
+run
+do TB.do
+# End time: 10:41:49 on Jan 03,2024, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 27
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:41:49 on Jan 03,2024
+# vlog -reportprogress 300 ../EXE/ALU.v ../EXE/EXE.v ../EXE/StatusReg.v ../EXE/Val2Gen.v ../EXE/adder.v ../EXEReg/EXE_Reg.v ../FW/FW.v ../Hazard/Hazard.v ../ID/ConditionCheck.v ../ID/ControlUnit.v ../ID/ID.v ../ID/RegistersFile.v ../IDReg/ID_Reg.v ../IF/IF.v ../IF/Instmem.v ../IF/PC_adder.v ../IFReg/IFReg.v ../MEM/MemReg.v ../MEM/mem.v ../Utils/MUX.v ../Utils/RegPC.v ../WB/WB.v ../sram/Sram_Controller.v 
+# -- Compiling module ALU
+# -- Compiling module EXE
+# -- Compiling module Status_Reg
+# -- Compiling module Val2Gen
+# -- Compiling module adder
+# -- Compiling module EXE_STAGE_REG
+# -- Compiling module FW
+# -- Compiling module hazard_detection_unit
+# -- Compiling module ConditionCheck
+# -- Compiling module ControlUnit
+# -- Compiling module ID
+# -- Compiling module RegistersFile
+# -- Compiling module ID_STAGE_REG
+# -- Compiling module IF
+# -- Compiling module Instmem
+# -- Compiling module PC_adder
+# -- Compiling module IFReg
+# -- Compiling module MemReg
+# -- Compiling module Memory
+# -- Compiling module Mux
+# -- Compiling module RegPC
+# -- Compiling module WB_stage
+# -- Compiling module Sram_Controller
+# -- Compiling module Count6
+# -- Compiling module Reg_Read
+# 
+# Top level modules:
+# 	EXE
+# 	EXE_STAGE_REG
+# 	FW
+# 	hazard_detection_unit
+# 	ID
+# 	ID_STAGE_REG
+# 	IF
+# 	IFReg
+# 	MemReg
+# 	Memory
+# 	WB_stage
+# 	Sram_Controller
+# End time: 10:41:49 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:41:49 on Jan 03,2024
+# vlog -reportprogress 300 ../ARM.v ../TB.v 
+# -- Compiling module ARM
+# -- Compiling module TB
+# 
+# Top level modules:
+# 	TB
+# End time: 10:41:49 on Jan 03,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim TB 
+# Start time: 10:41:49 on Jan 03,2024
+# Loading work.TB
+# Loading work.ARM
+# Loading work.IF
+# Loading work.Mux
+# Loading work.RegPC
+# Loading work.Instmem
+# Loading work.PC_adder
+# Loading work.IFReg
+# Loading work.ID
+# Loading work.ConditionCheck
+# Loading work.ControlUnit
+# Loading work.RegistersFile
+# Loading work.ID_STAGE_REG
+# Loading work.EXE
+# Loading work.ALU
+# Loading work.Val2Gen
+# Loading work.adder
+# Loading work.Status_Reg
+# Loading work.EXE_STAGE_REG
+# Loading work.Sram_Controller
+# Loading work.Count6
+# Loading work.Reg_Read
+# Loading work.MemReg
+# Loading work.WB_stage
+# Loading work.hazard_detection_unit
+# Loading work.FW
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (1) for port 'KEY'. The port definition is at: ../ARM.v(55).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: ../ARM.v(59).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX1'. The port definition is at: ../ARM.v(60).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX2'. The port definition is at: ../ARM.v(61).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX3'. The port definition is at: ../ARM.v(62).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX4'. The port definition is at: ../ARM.v(63).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX5'. The port definition is at: ../ARM.v(64).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX6'. The port definition is at: ../ARM.v(65).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX7'. The port definition is at: ../ARM.v(66).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (9) does not match connection size (1) for port 'LEDG'. The port definition is at: ../ARM.v(68).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'LEDR'. The port definition is at: ../ARM.v(69).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'DRAM_DQ'. The port definition is at: ../ARM.v(77).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'DRAM_ADDR'. The port definition is at: ../ARM.v(78).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'FL_DQ'. The port definition is at: ../ARM.v(90).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (22) does not match connection size (1) for port 'FL_ADDR'. The port definition is at: ../ARM.v(91).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'SRAM_DQ'. The port definition is at: ../ARM.v(97).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (18) does not match connection size (1) for port 'SRAM_ADDR'. The port definition is at: ../ARM.v(98).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'OTG_DATA'. The port definition is at: ../ARM.v(105).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (2) does not match connection size (1) for port 'OTG_ADDR'. The port definition is at: ../ARM.v(106).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'LCD_DATA'. The port definition is at: ../ARM.v(125).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_R'. The port definition is at: ../ARM.v(148).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_G'. The port definition is at: ../ARM.v(149).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'VGA_B'. The port definition is at: ../ARM.v(150).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'ENET_DATA'. The port definition is at: ../ARM.v(152).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (1) for port 'TD_DATA'. The port definition is at: ../ARM.v(168).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_0'. The port definition is at: ../ARM.v(174).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (36) does not match connection size (1) for port 'GPIO_1'. The port definition is at: ../ARM.v(175).
+#    Time: 0 ns  Iteration: 0  Instance: /TB/A1 File: ../TB.v Line: 8
+# ** Note: $stop    : ../TB.v(142)
+#    Time: 420 ns  Iteration: 0  Instance: /TB
+# Break in Module TB at ../TB.v line 142
+run
+run
+run
+run
+run
+run
+run
